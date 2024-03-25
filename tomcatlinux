@@ -1,0 +1,37 @@
+## INSTALL JAVA1.8 ON LINUX ##
+  # frist check the java packages using this command #
+     
+     yum provides \*/bin/java
+  
+    # install the package #
+
+     yum install java package
+
+    # extract the file #
+
+     tar -xzvf filename
+
+    # check java version #
+
+     java -version
+
+
+## INSTALL TOMCAT9 ON LINUX ##
+    
+   #go to tomcat webpage select the tar.gz file #
+
+      wget paste the link 
+    
+   # extract the file #
+     
+      tar -xzvf
+
+   mv apache-tomcat-9.0.76/ /opt/tomcat9/
+
+# To start the process, got to bin folder and execute the below command #
+
+   cd /opt/tomcat9/bin/
+   chmod +x *
+   sh startup.sh
+
+# Once the tomcat is started , tomcat can be accessible at http://ipaddress:8080 #
